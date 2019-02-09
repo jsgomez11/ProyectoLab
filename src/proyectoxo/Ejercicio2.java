@@ -73,6 +73,7 @@ public class Ejercicio2 {
                     System.out.print("Enter the symbol " + player2 + " will use: ");
                     symbol2 = read.next().charAt(0);
                     do {
+                        victory = false;
                         boolean errored = false;
                         System.out.println("\n\n\n");
                         System.out.println(" " + pos1 + " | " + pos2 + " | " + pos3);
